@@ -1,0 +1,56 @@
+[ 2018-05-11T17:03:25+08:00 ] 211.138.116.111 /gujie/?name_data=&saying_data=&year_data=&Occupation_data=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000318s ]
+SQL: SHOW COLUMNS FROM `team_number` [ RunTime:0.000400s ]
+SQL: INSERT INTO `team_number` (`name`,`saying`,`year`,`occupation`) VALUES ('','',0,'') [ RunTime:0.014658s ]
+
+[ 2018-05-11T17:03:26+08:00 ] 211.138.116.111 /gujie/?name_data=&saying_data=&year_data=&Occupation_data=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000361s ]
+SQL: SHOW COLUMNS FROM `team_number` [ RunTime:0.000480s ]
+SQL: INSERT INTO `team_number` (`name`,`saying`,`year`,`occupation`) VALUES ('','',0,'') [ RunTime:0.193324s ]
+
+[ 2018-05-11T17:03:26+08:00 ] 211.138.116.111 /gujie/?name_data=&saying_data=&year_data=&Occupation_data=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000355s ]
+SQL: SHOW COLUMNS FROM `team_number` [ RunTime:0.000426s ]
+SQL: INSERT INTO `team_number` (`name`,`saying`,`year`,`occupation`) VALUES ('','',0,'') [ RunTime:0.098912s ]
+
+[ 2018-05-11T17:03:26+08:00 ] 211.138.116.111 /gujie/?name_data=&saying_data=&year_data=&Occupation_data=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000425s ]
+SQL: SHOW COLUMNS FROM `team_number` [ RunTime:0.000338s ]
+SQL: INSERT INTO `team_number` (`name`,`saying`,`year`,`occupation`) VALUES ('','',0,'') [ RunTime:0.105926s ]
+
+[ 2018-05-11T17:03:26+08:00 ] 211.138.116.111 /gujie/?name_data=&saying_data=&year_data=&Occupation_data=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000411s ]
+SQL: SHOW COLUMNS FROM `team_number` [ RunTime:0.000330s ]
+SQL: INSERT INTO `team_number` (`name`,`saying`,`year`,`occupation`) VALUES ('','',0,'') [ RunTime:0.106689s ]
+
+[ 2018-05-11T17:03:26+08:00 ] 211.138.116.111 /gujie/?name_data=&saying_data=&year_data=&Occupation_data=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000607s ]
+SQL: SHOW COLUMNS FROM `team_number` [ RunTime:0.000812s ]
+SQL: INSERT INTO `team_number` (`name`,`saying`,`year`,`occupation`) VALUES ('','',0,'') [ RunTime:0.106800s ]
+
+[ 2018-05-11T17:03:26+08:00 ] 211.138.116.111 /gujie/?name_data=&saying_data=&year_data=&Occupation_data=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000359s ]
+SQL: SHOW COLUMNS FROM `team_number` [ RunTime:0.000361s ]
+SQL: INSERT INTO `team_number` (`name`,`saying`,`year`,`occupation`) VALUES ('','',0,'') [ RunTime:0.108736s ]
+
+[ 2018-05-11T17:03:26+08:00 ] 211.138.116.111 /gujie/?name_data=&saying_data=&year_data=&Occupation_data=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000422s ]
+SQL: SHOW COLUMNS FROM `team_number` [ RunTime:0.000377s ]
+SQL: INSERT INTO `team_number` (`name`,`saying`,`year`,`occupation`) VALUES ('','',0,'') [ RunTime:0.108435s ]
+

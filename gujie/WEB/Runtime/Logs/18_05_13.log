@@ -1,0 +1,13 @@
+[ 2018-05-13T22:18:23+08:00 ] 223.95.7.163 /gujie/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000397s ]
+NOTIC: [8] Undefined index: name_data /www/wwwroot/www.sxscott.com/gujie/WEB/Lib/Action/IndexAction.class.php 第 5 行.
+NOTIC: [8] Undefined index: saying_data /www/wwwroot/www.sxscott.com/gujie/WEB/Lib/Action/IndexAction.class.php 第 6 行.
+NOTIC: [8] Undefined index: year_data /www/wwwroot/www.sxscott.com/gujie/WEB/Lib/Action/IndexAction.class.php 第 7 行.
+NOTIC: [8] Undefined index: Occupation_data /www/wwwroot/www.sxscott.com/gujie/WEB/Lib/Action/IndexAction.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `team_number` [ RunTime:0.000616s ]
+SQL: INSERT INTO `team_number` (`name`,`saying`,`year`,`occupation`) VALUES (null,null,null,null) [ RunTime:0.000114s ]
+ERR: 1048:Column 'name' cannot be null
+ [ SQL语句 ] : INSERT INTO `team_number` (`name`,`saying`,`year`,`occupation`) VALUES (null,null,null,null)
+

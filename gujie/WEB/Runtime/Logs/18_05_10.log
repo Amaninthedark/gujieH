@@ -1,0 +1,110 @@
+[ 2018-05-10T09:12:04+08:00 ] 223.95.7.163 /gujie/?name_data=%E5%BC%A0%E4%B8%89&saying_data=%E5%B2%81%E6%9C%88%E5%A6%82%E6%A2%AD&year_data=8
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000329s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.000528s ]
+SQL: INSERT INTO `team` (`name`,`saying`,`year`) VALUES ('张三','岁月如梭',8) [ RunTime:0.016227s ]
+
+[ 2018-05-10T15:36:19+08:00 ] 223.95.7.163 /gujie/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000460s ]
+NOTIC: [8] Undefined index: name_data /www/wwwroot/www.sxscott.com/gujie/WEB/Lib/Action/IndexAction.class.php 第 5 行.
+NOTIC: [8] Undefined index: saying_data /www/wwwroot/www.sxscott.com/gujie/WEB/Lib/Action/IndexAction.class.php 第 6 行.
+NOTIC: [8] Undefined index: year_data /www/wwwroot/www.sxscott.com/gujie/WEB/Lib/Action/IndexAction.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.000387s ]
+SQL: INSERT INTO `team` (`name`,`saying`,`year`) VALUES (null,null,null) [ RunTime:0.000175s ]
+ERR: 1048:Column 'name' cannot be null
+ [ SQL语句 ] : INSERT INTO `team` (`name`,`saying`,`year`) VALUES (null,null,null)
+
+[ 2018-05-10T15:49:39+08:00 ] 223.95.7.163 /gujie/?name_data=%E9%98%AE%E6%9D%AD&saying_data=%E5%A5%A2%E5%8D%8E%E4%BA%AB%E5%8F%97%20%E9%AB%98%E8%B4%B5%E4%BD%8E%E8%B0%83&year_data=8&Occupation_data=%E8%AE%BE%E8%AE%A1%E5%B8%88
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000360s ]
+SQL: SHOW COLUMNS FROM `team_number` [ RunTime:0.000332s ]
+ERR: 1146:Table 'gujie.team_number' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `team_number`
+SQL: INSERT INTO `team_number` (`name`,`saying`,`year`,`Occupation`) VALUES ('阮杭','奢华享受 高贵低调','8','设计师') [ RunTime:0.000077s ]
+ERR: 1146:Table 'gujie.team_number' doesn't exist
+ [ SQL语句 ] : INSERT INTO `team_number` (`name`,`saying`,`year`,`Occupation`) VALUES ('阮杭','奢华享受 高贵低调','8','设计师')
+
+[ 2018-05-10T15:50:44+08:00 ] 223.95.7.163 /gujie/?name_data=%E9%98%AE%E6%9D%AD&saying_data=%E5%A5%A2%E5%8D%8E%E4%BA%AB%E5%8F%97%20%E9%AB%98%E8%B4%B5%E4%BD%8E%E8%B0%83&year_data=8&Occupation_data=%E8%AE%BE%E8%AE%A1%E5%B8%88
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000449s ]
+SQL: SHOW COLUMNS FROM `team_number` [ RunTime:0.000383s ]
+ERR: 1146:Table 'gujie.team_number' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `team_number`
+SQL: INSERT INTO `team_number` (`name`,`saying`,`year`,`occupation`) VALUES ('阮杭','奢华享受 高贵低调','8','设计师') [ RunTime:0.000072s ]
+ERR: 1146:Table 'gujie.team_number' doesn't exist
+ [ SQL语句 ] : INSERT INTO `team_number` (`name`,`saying`,`year`,`occupation`) VALUES ('阮杭','奢华享受 高贵低调','8','设计师')
+
+[ 2018-05-10T15:53:04+08:00 ] 223.95.7.163 /gujie/?name_data=%E9%98%AE%E6%9D%AD&saying_data=%E5%A5%A2%E5%8D%8E%E4%BA%AB%E5%8F%97%20%E9%AB%98%E8%B4%B5%E4%BD%8E%E8%B0%83&year_data=8&Occupation_data=%E8%AE%BE%E8%AE%A1%E5%B8%88
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000281s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000338s ]
+SQL: SHOW COLUMNS FROM `team_number` [ RunTime:0.000346s ]
+ERR: 1146:Table 'gujie.team_number' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `team_number`
+SQL: INSERT INTO `team_number` (`name`,`saying`,`year`,`occupation`) VALUES ('阮杭','奢华享受 高贵低调','8','设计师') [ RunTime:0.000076s ]
+ERR: 1146:Table 'gujie.team_number' doesn't exist
+ [ SQL语句 ] : INSERT INTO `team_number` (`name`,`saying`,`year`,`occupation`) VALUES ('阮杭','奢华享受 高贵低调','8','设计师')
+
+[ 2018-05-10T15:53:37+08:00 ] 223.95.7.163 /gujie/?name_data=111&saying_data=22&year_data=3
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000313s ]
+NOTIC: [8] Undefined index: Occupation_data /www/wwwroot/www.sxscott.com/gujie/WEB/Lib/Action/IndexAction.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `team_number` [ RunTime:0.000290s ]
+ERR: 1146:Table 'gujie.team_number' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `team_number`
+SQL: INSERT INTO `team_number` (`name`,`saying`,`year`,`occupation`) VALUES ('111','22','3',null) [ RunTime:0.000068s ]
+ERR: 1146:Table 'gujie.team_number' doesn't exist
+ [ SQL语句 ] : INSERT INTO `team_number` (`name`,`saying`,`year`,`occupation`) VALUES ('111','22','3',null)
+
+[ 2018-05-10T15:54:34+08:00 ] 223.95.7.163 /gujie/?name_data=111&saying_data=22&year_data=3
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000322s ]
+SQL: SHOW COLUMNS FROM `team_number` [ RunTime:0.000348s ]
+ERR: 1146:Table 'gujie.team_number' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `team_number`
+SQL: INSERT INTO `team_number` (`name`,`saying`,`year`) VALUES ('111','22','3') [ RunTime:0.000091s ]
+ERR: 1146:Table 'gujie.team_number' doesn't exist
+ [ SQL语句 ] : INSERT INTO `team_number` (`name`,`saying`,`year`) VALUES ('111','22','3')
+
+[ 2018-05-10T15:56:01+08:00 ] 223.95.7.163 /gujie/?name_data=111&saying_data=22&year_data=3
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000341s ]
+SQL: SHOW COLUMNS FROM `team_number` [ RunTime:0.000423s ]
+SQL: INSERT INTO `team_number` (`name`,`saying`,`year`) VALUES ('111','22',3) [ RunTime:0.021016s ]
+
+[ 2018-05-10T15:57:08+08:00 ] 223.95.7.163 /gujie/?name_data=%E9%98%AE%E6%9D%AD&saying_data=%E5%A5%A2%E5%8D%8E%E4%BA%AB%E5%8F%97%20%E9%AB%98%E8%B4%B5%E4%BD%8E%E8%B0%83&year_data=8&Occupation_data=%E8%AE%BE%E8%AE%A1%E5%B8%88
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000433s ]
+SQL: SHOW COLUMNS FROM `team_number` [ RunTime:0.000491s ]
+SQL: INSERT INTO `team_number` (`name`,`saying`,`year`,`occupation`) VALUES ('阮杭','奢华享受 高贵低调',8,'设计师') [ RunTime:0.027259s ]
+
+[ 2018-05-10T15:58:59+08:00 ] 223.95.7.163 /gujie/?name_data=%E7%8E%8B%E6%A0%87&saying_data=%E5%A5%A2%E5%8D%8E%E4%BA%AB%E5%8F%97%20%E9%AB%98%E8%B4%B5%E4%BD%8E%E8%B0%83&year_data=7&Occupation_data=%E6%A3%80%E6%B5%8B%E5%91%98
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000477s ]
+SQL: SHOW COLUMNS FROM `team_number` [ RunTime:0.003196s ]
+SQL: INSERT INTO `team_number` (`name`,`saying`,`year`,`occupation`) VALUES ('王标','奢华享受 高贵低调',7,'检测员') [ RunTime:0.014468s ]
+
+[ 2018-05-10T16:02:59+08:00 ] 223.95.7.163 /gujie/?name_data=%E5%91%A8%E5%AE%87%E6%A0%B7&saying_data=%E5%A5%A2%E5%8D%8E%E4%BA%AB%E5%8F%97%20%E9%AB%98%E8%B4%B5%E4%BD%8E%E8%B0%83&year_data=3&Occupation_data=%E5%AE%89%E8%A3%85%E5%B7%A5
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000316s ]
+SQL: SHOW COLUMNS FROM `team_number` [ RunTime:0.000374s ]
+SQL: INSERT INTO `team_number` (`name`,`saying`,`year`,`occupation`) VALUES ('周宇样','奢华享受 高贵低调',3,'安装工') [ RunTime:0.013957s ]
+
+[ 2018-05-10T16:03:51+08:00 ] 223.95.7.163 /gujie/?name_data=%E6%9E%97%E4%B8%BD&saying_data=%E5%A5%A2%E5%8D%8E%E4%BA%AB%E5%8F%97%20%E9%AB%98%E8%B4%B5%E4%BD%8E%E8%B0%83&year_data=3&Occupation_data=%E5%B7%A5%E7%A8%8B%E5%B8%88
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000278s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000330s ]
+SQL: SHOW COLUMNS FROM `team_number` [ RunTime:0.000375s ]
+SQL: INSERT INTO `team_number` (`name`,`saying`,`year`,`occupation`) VALUES ('林丽','奢华享受 高贵低调',3,'工程师') [ RunTime:0.021630s ]
+
